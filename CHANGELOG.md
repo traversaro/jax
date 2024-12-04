@@ -12,6 +12,9 @@ When releasing, please add the new-release-boilerplate to docs/pallas/CHANGELOG.
 
 ## jax 0.4.37
 
+* Breaking changes
+  * Enable `jax_threefry_partitionable` by default (see [the update note](https://github.com/jax-ml/jax/discussions/18480)).
+
 * Bug fixes
   * Fix a bug that will throw `index out of range` error in
     {func}`jax.lax.while_loop` if the user register pytree node class with
